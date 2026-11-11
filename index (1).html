@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مكتبة ميار - طباعة ونسخ وأدوات مدرسية في منزل كامل</title>
+<meta name="description" content="مكتبة ميار في منزل كامل، تونس: طباعة ونسخ وتسجيل وتوصيل، وكراريس وأقلام وأدوات مدرسية. مفتوح كل يوم من 8 صباحا إلى 10 ليلا.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#14213d; --navy-2:#1d2d52; --gold:#e0a526; --orange:#e8712b;
+    --paper:#f5f6fa; --ink:#1b2233; --muted:#5a6479; --line:#cfd5e2;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Cairo",Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.8;font-size:17px}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+
+  .hero{background:var(--navy);color:#fff;padding:56px 20px 64px}
+  .wrap{max-width:900px;margin:0 auto}
+  .hero h1{margin:0;font-size:clamp(2.6rem,9vw,4.6rem);font-weight:800;line-height:1.15;color:var(--gold)}
+  .hero p{margin:14px 0 0;font-size:1.2rem;max-width:34ch;color:#e9edf7}
+  .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{display:inline-block;padding:11px 22px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--gold);color:var(--gold)}
+  .btn.main{background:var(--orange);border-color:var(--orange);color:#fff}
+  .btn:hover{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+  .btn.main:hover{background:#cf5f1d;border-color:#cf5f1d;color:#fff}
+
+  main{padding:0 20px}
+  section{max-width:900px;margin:0 auto;padding:48px 0 8px}
+  h2{margin:0 0 18px;font-size:1.6rem;font-weight:800;color:var(--navy)}
+
+  /* the memorable part: a shop price board */
+  .board{background:#fff;border:2px solid var(--navy);border-radius:4px;padding:8px 22px;box-shadow:6px 6px 0 var(--gold)}
+  .row{display:flex;align-items:baseline;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:0}
+  .row .name{font-weight:600;font-size:1.1rem}
+  .row .dots{flex:1;border-bottom:3px dotted var(--line);transform:translateY(-4px);min-width:20px}
+  .row .price{font-weight:800;font-size:1.25rem;color:var(--navy);white-space:nowrap}
+  .row .unit{font-weight:400;font-size:.9rem;color:var(--muted)}
+  .note{margin:14px 2px 0;color:var(--muted);font-size:.95rem}
+
+  .info{display:grid;gap:28px;grid-template-columns:1fr}
+  @media(min-width:760px){.info{grid-template-columns:1fr 1fr}}
+  dl{margin:0}
+  dt{font-weight:800;color:var(--navy);margin-top:14px}
+  dt:first-child{margin-top:0}
+  dd{margin:0;color:var(--ink)}
+  dd a{font-weight:600}
+
+  .stock p{max-width:60ch;margin:0}
+
+  footer{margin-top:56px;background:var(--navy-2);color:#d6dcec;padding:28px 20px;font-size:.95rem}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
+  footer a{color:var(--gold)}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Store",
+  "name":"مكتبة ميار",
+  "alternateName":"Librairie Mayar",
+  "telephone":"+21629464720",
+  "openingHours":"Mo-Su 08:00-22:00",
+  "address":{"@type":"PostalAddress","addressLocality":"Menzel Kamel","addressCountry":"TN"},
+  "hasMap":"https://maps.app.goo.gl/6hqYVVZWf7V9eF9L9",
+  "url":"https://nejib120-netizen.github.io/"
+}
+</script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>مكتبة ميار</h1>
+    <p>طباعة ونسخ وتسجيل، وكل أدوات الدراسة في منزل كامل.</p>
+    <div class="actions">
+      <a class="btn main" href="tel:+21629464720">اتصل: 29464720</a>
+      <a class="btn" href="https://wa.me/21629464720">راسلنا على واتساب</a>
+      <a class="btn" href="https://maps.app.goo.gl/6hqYVVZWf7V9eF9L9">افتح الموقع على الخريطة</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="services">
+    <h2>أسعار الخدمات</h2>
+    <div class="board">
+      <div class="row"><span class="name">طباعة</span><span class="dots"></span><span class="price">200 مي <span class="unit">للصفحة</span></span></div>
+      <div class="row"><span class="name">نسخ</span><span class="dots"></span><span class="price">200 مي <span class="unit">للصفحة</span></span></div>
+      <div class="row"><span class="name">تسجيل في أي خدمة</span><span class="dots"></span><span class="price">1 د</span></div>
+      <div class="row"><span class="name">توصيل داخل منزل كامل</span><span class="dots"></span><span class="price">1 د</span></div>
+    </div>
+    <p class="note">الأسعار بالدينار التونسي (1 د = 1000 مي).</p>
+  </section>
+
+  <section class="stock" id="products">
+    <h2>أدوات مدرسية ومكتبية</h2>
+    <p>كراريس بأحجام وأنواع مختلفة، أقلام، محافظ وأدوات للدراسة. للسؤال عن سعر منتج أو توفره، اتصل بنا أو راسل صفحتنا على فيسبوك.</p>
+  </section>
+
+  <section id="contact">
+    <h2>كيف تجدنا</h2>
+    <div class="info">
+      <dl>
+        <dt>العنوان</dt>
+        <dd>مكتبة ميار، منزل كامل، تونس</dd>
+        <dd><a href="https://maps.app.goo.gl/6hqYVVZWf7V9eF9L9">افتح على Google Maps</a></dd>
+        <dt>أوقات العمل</dt>
+        <dd>كل أيام الأسبوع، من 8 صباحا إلى 10 ليلا</dd>
+      </dl>
+      <dl>
+        <dt>الهاتف</dt>
+        <dd><a href="tel:+21629464720" dir="ltr">+216 29 464 720</a></dd>
+        <dt>واتساب</dt>
+        <dd><a href="https://wa.me/21629464720">ابدأ محادثة</a></dd>
+        <dt>مساعد الرسائل</dt>
+        <dd>يجيب على أسئلتك في Messenger عبر صفحة مكتبة ميار على فيسبوك.</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 مكتبة ميار، منزل كامل، تونس</span>
+    <span>Fatiha Eltaief</span>
+    <a href="https://nejib120-netizen.github.io/mayar-privacy/">سياسة الخصوصية</a>
+  </div>
+</footer>
+
+</body>
+</html>
